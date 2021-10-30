@@ -1,0 +1,38 @@
+{
+    "pages": [
+      "pages/3-rpx/3-rpx",
+      "pages/2-highLight/2-highLight",
+      "pages/1-todolist/1-todolist",
+        "pages/home/home",
+        "pages/demo/demo",
+        "pages/center/center"
+     
+    ],
+    "window": {
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#777",
+        "navigationBarTitleText": "MyApp",
+        "navigationBarTextStyle": "white",
+        "enablePullDownRefresh":true
+    },
+    "tabBar": {
+      "list": [{
+        "pagePath": "pages/demo/demo",
+        "text": "测试",
+        "iconPath": "images/back2.jpeg",
+        "selectedIconPath": "images/back2.jpeg"
+      },{
+        "pagePath": "pages/3-rpx/3-rpx",
+        "text": "首页",
+        "iconPath": "images/home.jpeg",
+        "selectedIconPath": "images/home.jpeg"
+      },{
+        "pagePath": "pages/center/center",
+        "text": "主页",
+        "iconPath": "images/up1.jpeg",
+        "selectedIconPath": "images/up1.jpeg"
+      }]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

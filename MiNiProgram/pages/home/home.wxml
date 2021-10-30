@@ -1,0 +1,12 @@
+<!--pages/home/home.wxml-->
+<text>{{10+20}}</text>
+<text>{{msg}}</text>
+<view id="my-{{id[0]}}">aaa</view>
+<view id="my-{{id[1]}}">bbb</view>
+<view id="my-{{id[2]}}">ccc</view>
+
+<view wx:for="{{list}}" wx:for-item="i" wx:for-index="in" wx:key="in">
+{{i}}--{{in}}
+</view>
+<view wx:if="{{flag}}">aqw</view>
+<button type="primary" bindtap="handleTap">click</button>

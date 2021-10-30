@@ -1,0 +1,13 @@
+/* pages/1-todolist/1-todolist.wxss */
+input{
+    border: 1px solid red;
+    height: 30px;
+    border-radius: 8px;
+}
+.box{
+    display: flex;
+}
+.list{
+    display: flex;
+    justify-content: between;
+}

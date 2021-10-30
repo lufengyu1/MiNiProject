@@ -1,0 +1,11 @@
+/* pages/2-highLight/2-highLight.wxss */
+.box{
+    display: flex;
+}
+.box .item{
+    flex: 1;
+    text-align: center;
+}
+.active{
+    color: red;
+}
